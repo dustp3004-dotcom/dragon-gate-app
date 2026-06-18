@@ -131,8 +131,8 @@ export default function App() {
   if(screen==="welcome") return (
     <div style={{maxWidth:430,margin:"0 auto",minHeight:"100vh",background:B.blue,...F,display:"flex",flexDirection:"column"}}>
       <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet"/>
-      <div style={{background:redGrad,padding:"36px 24px 28px",textAlign:"center",borderBottom:`4px solid ${B.gold}`}}>
-        <img src={LOGO} alt="Dragon Gate" style={{width:"60%",maxWidth:220,borderRadius:10,boxShadow:"0 6px 24px rgba(0,0,0,0.35)",display:"block",margin:"0 auto"}}/>
+      <div style={{background:"linear-gradient(135deg,#0a0a0a 0%,#1a1a1a 100%)",padding:"36px 24px 28px",textAlign:"center",borderBottom:`4px solid ${B.gold}`}}>
+        <img src={LOGO} alt="Dragon Gate" style={{width:"88%",maxWidth:320,borderRadius:0,boxShadow:"none",display:"block",margin:"0 auto"}}/>
         <div style={{fontSize:13,color:"rgba(255,255,255,0.75)",marginTop:14,fontStyle:"italic",letterSpacing:1}}>Premium Asian Ingredients</div>
       </div>
       <div style={{flex:1,padding:"32px 24px 24px",display:"flex",flexDirection:"column",gap:14}}>
@@ -147,7 +147,7 @@ export default function App() {
           + &nbsp; Create Account
         </button>
         <div style={{textAlign:"center",color:"#aaa",fontSize:11,marginTop:4}}>📱 {B.phone} &nbsp;·&nbsp; 📍 {B.tagline}</div>
-        <div style={{textAlign:"center",color:"#ccc",fontSize:10}}>Demo · admin@dragongate.com / admin123</div>
+
       </div>
     </div>
   );
