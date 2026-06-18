@@ -131,8 +131,8 @@ export default function App() {
   if(screen==="welcome") return (
     <div style={{maxWidth:430,margin:"0 auto",minHeight:"100vh",background:B.blue,...F,display:"flex",flexDirection:"column"}}>
       <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet"/>
-      <div style={{background:"linear-gradient(135deg,#0a0a0a 0%,#1a1a1a 100%)",padding:"36px 24px 28px",textAlign:"center",borderBottom:`4px solid ${B.gold}`}}>
-        <img src={LOGO} alt="Dragon Gate" style={{width:"88%",maxWidth:320,borderRadius:0,boxShadow:"none",display:"block",margin:"0 auto"}}/>
+      <div style={{background:"linear-gradient(135deg,#0a0a0a 0%,#1a1a1a 100%)",padding:"28px 0 20px",textAlign:"center",borderBottom:`4px solid ${B.gold}`}}>
+        <img src={LOGO} alt="Dragon Gate" style={{width:"100%",maxWidth:"100%",borderRadius:0,boxShadow:"none",display:"block",margin:"0 auto"}}/>
         <div style={{fontSize:13,color:"rgba(255,255,255,0.75)",marginTop:14,fontStyle:"italic",letterSpacing:1}}>Premium Asian Ingredients</div>
       </div>
       <div style={{flex:1,padding:"32px 24px 24px",display:"flex",flexDirection:"column",gap:14}}>
