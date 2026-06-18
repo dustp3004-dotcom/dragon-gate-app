@@ -40,5 +40,5 @@ https://dragon-gate-app.vercel.app
 - Password: admin123
 
 ### Support:
-WhatsApp: 078 870 4508
+WhatsApp: 078 0522118
 Email: DRAGON.PANTRY@GMAIL.COM
